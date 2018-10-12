@@ -155,14 +155,16 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
-    text-align: center;
+    background-image: url('../img/header2.jpg');
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    text-align: left;
     color: white;
     .header-content {
         position: relative;
-        text-align: center;
+        text-align: center; 
         padding: 100px 15px 100px;
-        width: 100%;
+        width: 100%;x
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -227,6 +229,7 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    opacity: 0.5;
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -260,7 +263,7 @@ header {
         }
     }
     &:hover {
-        .portfolio-box-caption {
+        .portfolio-box {
             opacity: 1;
         }
     }

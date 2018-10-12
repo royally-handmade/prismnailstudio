@@ -1,12 +1,12 @@
 # Site settings
-title:
+title: Prism Nail Studio
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "prismnailstudio.com" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+facebook_username: prismnailstudio
+instagram_username: prismnailstudio
 
 # Build settings
 markdown: kramdown

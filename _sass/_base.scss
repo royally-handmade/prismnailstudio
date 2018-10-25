@@ -155,11 +155,11 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header2.jpg');
+    background-image: url('../img/header_final.png');
     opacity: 0.8;
     filter: alpha(opacity=50);
     text-align: left;
-    color: white;
+    color: $theme-dark;
     .header-content {
         position: relative;
         text-align: center; 

@@ -3,21 +3,33 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Let's Get In Touch!</h2>
+                <p>Send me a message, I'd love to hear from you</p>
+                <form>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input id="email" type="email" class="form-control" placeholder="Email">
+                        <label>Name</label>
+                        <input id="name" type="text" class="form-control" placeholder="Name">
+                        <label>Message</label>
+                        <textarea type="text" class="form-control" rows="3">Enter your message here</textarea>
+                    </div>
+                    <button id="submit" class="btn btn-primary" title="Submit">Submit</button>
+                </form>
                 <hr class="primary">
-                <p>Join me on the journey of nails and we can create something amazing, together!</p>
+                <p>Or check out social media links below.</p>
             </div>
-        <div class="col-lg-2 col-lg-offset-3 text-center">
-            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-                <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.instagram_username }}</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://facebook.com/PRISM-NAIL-STUDIO-323692248387764/" target="_blank">
-            <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.facebook_username }}</p>
-            </a>
-        </div>
+            <div class="col-lg-3 col-lg-offset-2 text-center">
+                <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+                    <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.instagram_username }}</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+                <a href="https://facebook.com/PRISM-NAIL-STUDIO-323692248387764/" target="_blank">
+                    <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.facebook_username }}</p>
+                </a>
+            </div>
 
-    </div>
+        </div>
 </section>

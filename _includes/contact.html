@@ -3,7 +3,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Let's Get In Touch!</h2>
-                <p>Send me a message, I'd love to hear from you</p>
+                <p>Send me a message, I'd love to hear from you.<br>
+                Let's create something amazing together.</p>
                 <form>
                     <div class="form-group">
                         <label>Email Address</label>
@@ -18,6 +19,16 @@
                 <hr class="primary">
                 <p>Or check out social media links below.</p>
             </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <ul class="list-inline banner-social-buttons">
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-primary btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
             <div class="col-lg-3 col-lg-offset-2 text-center">
                 <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
                     <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>

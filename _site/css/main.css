@@ -233,9 +233,8 @@ header {
 
 ul.banner-social-buttons {
   margin-top: 20px; }
-
-ul.banner-social-buttons li {
-  margin-bottom: 15px; }
+  ul.banner-social-buttons li {
+    margin-bottom: 15px; }
 
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
@@ -245,9 +244,8 @@ ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
     padding: 0; }
-
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0; } }
+    ul.banner-social-buttons li:last-child {
+      margin-bottom: 0; } }
 .btn-default {
   color: #222;
   background-color: white;
@@ -310,17 +308,23 @@ ul.banner-social-buttons li {
 
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  border: none;
   border-radius: 300px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase; }
 
-.btn-xl {
-  padding: 15px 30px; }
+.btn-network {
+  border: 1px solid #FF69B4;
+  color: #FF69B4;
+  background-color: transparent; }
+  .btn-network:hover,
+  .btn-network .btn-network > fa:hover {
+    color: white;
+    background-color: #FF69B4; }
 
-#contact .fa {
-  color: #222;
-  font-size: 4em; }
+.btn-xl {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 3em; }
 
 ::-moz-selection {
   color: white;

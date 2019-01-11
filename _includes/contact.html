@@ -21,26 +21,13 @@
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
             <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
                     <li>
-                        <a href="{{ network.url }}" class="btn btn-primary btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                        <a href="https://instagram.com/{{ site.instagram_username }}" class="btn btn-network btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">instagram</span></a>
                     </li>
-                    {% endfor %}
+                    <li>
+                        <a href="https://facebook.com/PRISM-NAIL-STUDIO-323692248387764/" class="btn btn-network btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                    </li>
                 </ul>
             </div>
-            
-            <div class="col-lg-3 col-lg-offset-2 text-center">
-                <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-                    <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>{{ site.instagram_username }}</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-lg-offset-2 text-center">
-                <a href="https://facebook.com/PRISM-NAIL-STUDIO-323692248387764/" target="_blank">
-                    <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p>{{ site.facebook_username }}</p>
-                </a>
-            </div>
-
         </div>
 </section>
